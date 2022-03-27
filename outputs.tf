@@ -8,9 +8,9 @@ The outputs.tf file contains the declaration of all of the values that will be c
 
 Simple Output Example:
 
-output "instance_ip_addr" {
+output "virtual_machine_public_ip_address" {
   value       = azurerm_windows_virtual_machine.vm1.public_ip_address
-  description = "The public IP address of the vm1  windows server resource."
+  description = "The public IP address of the vm1 windows server resource."
 }
 
 It is also important to note that sometimes you may want to hide sensitive information from being displayed as a result of a Terraform Plan or Apply. This can be done buy using the sensitive flag
