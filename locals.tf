@@ -17,4 +17,6 @@ The benefit of separating this into a specific file means that your ability to f
 
 Whilst local values are powerful it should be carefully considered as to the use of these within a module. Traditionally within a module, local values are used as a way to translate variables from the user or to reconfigure outputs of other modules into a more usable format for this modules specific use case.
 
+If the locals.tf file is unused, it should be deleted from the module.
+
 */
