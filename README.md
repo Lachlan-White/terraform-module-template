@@ -29,7 +29,7 @@ A module is a container for multiple resources that are used together. Modules c
 
 ## How to use this template
 
-**Step 1:** Click the `Use this template` at the top of the page
+**Step 1:** Click the `Use this template` button at the top of the page
 
 **Step 2:** Select the Owner / Organisation and Name of your new repository, along with privacy settings of the repository
 
