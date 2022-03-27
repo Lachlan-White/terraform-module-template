@@ -1,0 +1,39 @@
+# <Insert Name of Module Here>
+
+Between the name of the module and the overview subsection should live a description of the module itself. Typically I look to find descriptions written by the platform's documentation so I am not re-inventing the wheel. 
+
+As an example a description for any Microsoft Service can be found on their 'Overview' page of each service.
+
+Example: https://docs.microsoft.com/en-us/azure/cosmos-db/introduction
+
+## Overview
+
+### Features
+
+- Creation and Management of an <provider> <resource_type>
+- Configuration of feature x
+- Configuration of feature y
+
+### Limitations
+
+- Unable to create foo or bar because of limitation on the SDK <link to issue>
+
+### Documentation
+
+- <Link to Terraform Resources Documentation>
+- <Link to Platform Resource Documentat>
+
+## Examples
+
+```hcl
+module "example1" {
+  source = "github.com/<oprg_name>/<repo_name>?ref=v0.0.0"
+
+  name        = "example"
+  parameter_1 = "yes"
+  parameter_2 = "no"
+  parameter_3 = "maybe"
+}
+```
+
+More detailed examples can be found at [examples](./examples)
