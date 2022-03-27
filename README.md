@@ -29,13 +29,13 @@ A module is a container for multiple resources that are used together. Modules c
 
 ## How to use this template
 
-Step 1: Click the `Use this template` at the top of the page
+**Step 1:** Click the `Use this template` at the top of the page
 
-Step 2: Select the Owner / Organisation and Name of your new repository, along with privacy settings of the repository
+**Step 2:** Select the Owner / Organisation and Name of your new repository, along with privacy settings of the repository
 
-Step 3: Delete the README.md file and rename README.new to README.md
+**Step 3:** Delete the README.md file and rename README.new to README.md
 
-Step 3: Start building your module
+ **Step 4:** Start building your module
 
 ## File Specific Guidance
 
