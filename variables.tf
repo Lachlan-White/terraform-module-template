@@ -88,7 +88,6 @@ variable "source_image_reference" {
   }
 }
 
-
 Variable Validation Example:
 
 variable "resource_group_name" {
@@ -102,5 +101,3 @@ variable "resource_group_name" {
 }
 
 */
-
-
