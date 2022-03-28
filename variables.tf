@@ -24,7 +24,7 @@ variable "resource_group_name" {
 }
 
 variable "virtual_machine_size" {
-  description = "(Optional) The SKU which should be used for this Virtual Machine, such as Standard_F2. Defaults to 'Standard_D4s_v3'."
+  description = "(Optional) The SKU which should be used for this Virtual Machine, such as Standard_F2."
   type        = string
   default     = "Standard_D4s_v3"
 }
